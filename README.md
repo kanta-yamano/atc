@@ -8,6 +8,6 @@ B:表があっているかどうか(vector<vector<char>>)
  
 ### 259  
 A:身長  
-B:点の回転(atan2で弧度法求める、π=acos(-1))  
+B:点の回転(atan2で弧度法求める、π=acos(-1), fixedで小数点を指定、setprecisionで桁数指定)  
 
 ### 258
