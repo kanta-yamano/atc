@@ -10,4 +10,6 @@ B:表があっているかどうか(vector<vector<char>>)
 A:身長  
 B:点の回転(atan2で弧度法求める、π=acos(-1), fixedで小数点を指定、setprecisionで桁数指定)  
 
-### 258
+### 258  
+A:時刻  
+B:配列の移動(switch文でやってる)
