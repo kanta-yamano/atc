@@ -12,11 +12,11 @@ int main(void)
     rep(i, 0, n) rep(j, 0, n) cin >> a[i][j];
 
     ll ans = 0;
-    rep(i, 0, n) rep(j, 0, n) rep(k, 0, 8)
+    rep(i, 0, n) rep(j, 0, n) rep(k, 0, 8) // 8通り
     {
         int x = i, y = j;
         string res = "";
-        rep(l, 0, n)
+        rep(l, 0, n) //移動
         {
             res += a[x][y];
             switch (k)
