@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-int mani()
+int main()
 {
     long long n, ans;
     cin >> n;
@@ -28,11 +28,12 @@ int mani()
         }
         if (a[i] == 0)
         {
-            ans = ans;
+            continue;
         }
         else
         {
             ans = a[i];
         }
     }
+    cout << ans;
 }
