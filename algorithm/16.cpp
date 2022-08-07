@@ -15,7 +15,7 @@ int main()
     ans = a[0];
     for (int i = 1; i < n; i++)
     {
-        if (a[i] >= 1 && ans >= 1)
+        while (a[i] >= 1 && ans >= 1)
         {
             if (a[i] > ans)
             {
